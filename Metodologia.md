@@ -32,11 +32,9 @@ O Kanban é uma metodologia ágil que facilita a organização visual e eficient
  
 #### Práticas:
  
-- **Desenvolvimento iterativo**: A
-abordagem iterativa é necessária para....
+- **Desenvolvimento iterativo**: A estratégia iterativa é essencial para construir o produto em pequenas etapas, o que permite ajustes e melhorias contínuas com base no feedback recebido. Essa abordagem flexível facilita a adaptação às mudanças nos requisitos e maximiza a eficiência na entrega de benefícios ao cliente.
  
-- **Verificação da qualidade de software**: A qualidade deve ser revista com
-respeito aos requisitos com base...
+- **Verificação da qualidade de software**: É fundamental examinar a qualidade em relação aos requisitos estabelecidos, utilizando critérios específicos para assegurar que o produto atenda às expectativas dos usuários. Isso requer uma análise detalhada dos requisitos funcionais e não funcionais, visando garantir a robustez e confiabilidade do software, além de atender às necessidades dos interessados.
  
  
 ### Kanban
@@ -77,10 +75,5 @@ Com o estudo das metodologias.....
  
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 05/mm/xx | 1.0 | Criação  | xxx xxx e xxxxx xxxxx |
-| 06/mm/xx | 1.1 | Adicionado  | xxx xxxx e xxxxx xxxx |
-| 06/mm/XX | 1.2 | Adicionado  | xxx xxxx e xxxxxx xxxxxx |
-| 06/mm/xx | 1.3 | Adicionado xxxx | xxx xxxx e xxxx xxxxx |
-| 06/mm/xx | 1.4 | Adicionadoxxxx | xxxx xxxxx e xxxx xxxxx |
-| mm/mm/xx | 1.5 | Revisão do documento | xxxx xxxxx |
-| mm/mm/xx | 1.6 | Ajuste no topico Scrum | xxxx xxxx e xxxx xxxx |
+| 11/04/2024 | 1.0 | Criação  | Isabella Vieira |
+
