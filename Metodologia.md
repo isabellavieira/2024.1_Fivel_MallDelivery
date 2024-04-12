@@ -20,15 +20,13 @@ A Programação Orientada a Objetos (POO) é uma prática de programação que p
 </p>
  
 - [Kanban](https://www...):</p>
-O Kanban é uma metodologia ágil que facilita a organização visual e eficiente do trabalho em equipe. Utilizando um quadro dividido em colunas representando etapas do processo, como "A Fazer", "Em Andamento" e "Concluído", as tarefas são representadas por cartões que se movem conforme avançam. Este método permite adaptações às necessidades específicas da equipe, como estabelecer limites para tarefas em andamento, evitando sobrecarga e mantendo um fluxo de trabalho suave. Além disso, promove a colaboração e a melhoria contínua ao fornecer visibilidade do progresso e incentivar ajustes para aumentar a produtividade e a qualidade do trabalho ao longo do tempo.
+O Kanban é uma metodologia ágil que facilita a organização visual e eficiente do trabalho em equipe. Além disso, promove a colaboração e a melhoria contínua ao fornecer visibilidade do progresso e incentivar ajustes para aumentar a produtividade e a qualidade do trabalho ao longo do tempo.
 <p align = "justify">
  
  
 ## Metodologias de desenvolvimento:
  
 ### Versão 1.0
- 
-### RUP (Rational Unified Process)
  
 #### Práticas:
  
@@ -40,7 +38,7 @@ O Kanban é uma metodologia ágil que facilita a organização visual e eficient
 ### Kanban
  
 <p align = "justify">
-O Kanban é técnica que propõe a utilização de cartões em um quadro...
+O Kanban utiliza um quadro dividido em colunas representando etapas do processo, como "A Fazer", "Em Andamento" e "Concluído", as tarefas são representadas por cartões que se movem conforme avançam. Este método permite adaptações às necessidades específicas da equipe, como estabelecer limites para tarefas em andamento, evitando sobrecarga e mantendo um fluxo de trabalho suave. 
 </p>
  
 - **Lista de Tarefas**: Contém todas as tarefas do projeto.
