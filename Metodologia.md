@@ -60,9 +60,8 @@ As metodologias, processos e práticas abordadas neste documento desempenham um 
  
 ## Referências
  
-> [1] SCRUM, Disponivel em: https://www....
- 
-> [2] Sistema Kanban, Disponivel em: https://www...
+> [1] Sistema Kanban, Disponível em: [https://www.alura.com.br/artigos/metodo-kanban#:~:text=M%C3%A9todo%20Kanban%20%C3%A9%20um%20conjunto,atrav%C3%A9s%20de%20um%20sistema%20puxado]
+> [2] Programação Orientada a Objetos, Disponível em: [https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos]
  
  
 ## Autor(es)
