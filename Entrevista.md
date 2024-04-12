@@ -1,6 +1,6 @@
 # Entrevista Estruturada com Foco no Usuário Final
 
-Decidimos que, como não teremos muito tempo com os stakeholders, escolhemos uma entrevista estruturada com foco no usuário final. Para fazer isso, criamos uma versão fictícia do projeto no imaginário do grupo, e faremos todas as perguntas com base nesse esqueleto do projeto. As respostas das perguntas abaixo serão o manual para que possamos construir os “músculos” que movimentam esse “esqueleto”. O foco será obter as respostas para essas perguntas sobre funcionalidades cruciais para o funcionamento do sistema e suas funcionalidades.
+Decidimos que, como não teremos muito tempo com os stakeholders, escolhemos uma entrevista estruturada com foco no usuário final. Para fazer isso, criamos uma versão fictícia do projeto no imaginário do grupo, e faremos todas as perguntas com base nesse esqueleto do projeto. As respostas das perguntas abaixo serão o manual para que possamos construir os “músculos” que movimentam esse “esqueleto”. O foco será obter as respostas para essas perguntas cruciais para o funcionamento do sistema e suas funcionalidades.
 
 ## 1. Cadastro de Conta do Lojista
 
@@ -74,3 +74,57 @@ Decidimos que, como não teremos muito tempo com os stakeholders, escolhemos uma
 - Como visualiza isso acontecendo?
 - Para você, qual seria o sistema ideal?
 - Como você gostaria que as informações sejam vistas?
+
+### **Entrevista 1**
+
+<br>
+
+|Nome | Papel |
+-----|------|
+|xxxx xxxx| Entrevistador|
+|xxxx xxxx| Entrevistado|
+
+<br>
+<br>
+
+|Data|Horário de inicio|Horário de fim |Descrição
+----|-----|-----|---------|
+|dd/mm/yy | hh:mm| hh:mm | Entrevista realizada via hangouts.|
+
+<br>
+<br>
+
+ 
+### Requisitos elicitados
+ 
+|ID|Descrição|
+|----|-------------|
+|REQ01|O ...|
+|REQ02|O ...|
+|REQ03|O ...|
+|REQ04|O ...|
+|REQ05|O ...|
+|REQ06|O ...|
+|REQ07|O ...|
+|REQ08|O ...|
+|REQ09|O ...|
+|REQ10|O ...|
+
+
+## Conclusão
+<p align = "justify">
+"Através da aplicação da técnica, foi possível elicitar alguns requisitos importantes para o projeto."
+</p>
+ 
+## Referências
+
+>
+> 
+
+## Autor(es)
+
+| Data | Versão | Descrição | Autor(es) |
+| -- | -- | -- | -- |
+| 04/12/2024 | 1.0 | Criação do documento | Victor Furtado |
+| DD/MM/YYYY | 2.0 | Adição da entrevista  | XXX XXXX | 
+| DD/MM/YYYY | 2.1 | Adição dos requisitos elicitados e conclusão | XXXX XXXXX |
