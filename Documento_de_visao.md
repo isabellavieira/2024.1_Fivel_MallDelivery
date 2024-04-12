@@ -86,4 +86,4 @@ O lançamento do sistema deve ocorrer antes da temporada de compras de fim de an
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 11/04/2024 | 1.0 | Criação do documento | Fabiano Amorim | 
+| 12/03/2024 | 1.0 | Criação do documento | Fabiano Amorim, Isabella Vieira, Emilly Fernandes, Victor Furtado, Luiza Conrado | 
