@@ -22,12 +22,12 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>1.</b> - Criar um Marketplace de entrega imediata por aplicativo.
+<b>1.</b> Criar um Marketplace de entrega imediata por aplicativo.
 </p>
  
-<b>2.</b> - Utilizar as lojas físicas como estoque logístico para distribuição. 
+<b>2.</b> Utilizar as lojas físicas como estoque logístico para distribuição. 
  
-<b>3.</b> - Permitir aos clientes fazer pedidos e receber a entrega em até 2 horas.
+<b>3.</b> Permitir aos clientes fazer pedidos e receber a entrega em até 2 horas.
 </p>
  
 ---
@@ -35,31 +35,27 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>1.</b> - Preenchimento do formulário de cadastro com informações obrigatórias.
+<b>1.</b> Preenchimento do formulário de cadastro com informações obrigatórias.
  
-<b>YYYY</b> - O cliente...
- 
-<b>2.</b> - Inclusão de CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias.
+<b>2.</b> Inclusão de CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias.
 
 <b>3.</b> - Validação do cadastro pelo administrador do portal.
- 
-<b>KKK</b> - O cliente...
- 
+  
 ---
  
 ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+<b>1.</b> Acesso ao sistema utilizando credenciais.
 </p>
  
 <p align = "justify">
-<b>YYYYY</b> - O produto tem...
+<b>2.</b> Seleção da opção de adicionar novo produto.
 </p>
  
-<b>ZZZZ</b> - O produto....
+<b>3.</b> Preenchimento das informações do produto, incluindo categoria, nome, imagem, descrição, preço, recomendação, data de criação e visibilidade.
  
-<b>XXXX</b> - O produto....
+<b>4.</b> Adição do produto ao catálogo da loja.
 
  
 ---
