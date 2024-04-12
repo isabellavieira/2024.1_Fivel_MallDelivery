@@ -95,21 +95,21 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
-|BS06| O cliente...|
-|BS07| O cliente...|
-|BS08| O cliente...|
-|BS09| O cliente...|
-|BS10| O produto...|
-|BS11| O produto...|
-|BS12| O produto...|
-|BS13| O produto...|
-|BS14| O produto...|
-|BS15| O produto...|
+|BS01| O cliente deve ser capaz de se cadastrar no sistema com as seguintes informações obrigatórias|
+|BS02| O cadastro do cliente deve passar por validação pelo administrador do portal antes de ser ativado.|
+|BS03| O cliente deve poder acessar o sistema utilizando suas credenciais.|
+|BS04| O cliente deve poder adicionar novos produtos ao catálogo da loja com as seguintes informações: categoria, nome, imagem, descrição, preço, recomendação data de criação e visibilidade|
+|BS05| O cliente deve poder visualizar e gerenciar os produtos cadastrados por ele.|
+|BS06| O cliente deve ter acesso a um painel de controle onde possa acompanhar as vendas, pedidos e estoque.|
+|BS07| O cliente deve poder receber notificações sobre novos pedidos e atualizações de status de pedidos.|
+|BS08| O cliente deve poder editar e excluir produtos do catálogo da loja conforme necessário.|
+|BS09| O cliente deve poder interagir com os clientes, respondendo a perguntas e fornecendo suporte quando necessário.|
+|BS10| O produto deve ser exibido no aplicativo para os clientes dentro do raio de entrega de 2 horas.|
+|BS11| O produto deve ser categorizado corretamente para facilitar a navegação dos clientes.|
+|BS12| O produto deve ter uma descrição detalhada para fornecer informações suficientes aos clientes.|
+|BS13| O produto deve ter um preço competitivo em comparação com outros produtos similares no mercado.|
+|BS14| O produto deve ser marcado como recomendado quando aplicável, para aumentar sua visibilidade.|
+|BS15| O produto deve ter sua visibilidade controlada pelo cliente, podendo ser ocultado ou exibido conforme necessário.|
  
 ## Conclusão
 <p align = "justify">
