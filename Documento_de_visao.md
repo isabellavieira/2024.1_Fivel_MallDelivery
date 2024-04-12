@@ -42,6 +42,7 @@ Os objetivos do Mall Delivery incluem aumentar o volume de vendas das lojas part
 Os principais usuários do Mall Delivery são:
 
 Clientes: Usuários finais do serviço de entrega, em busca de uma forma conveniente de fazer compras em shoppings.
+
 Lojistas: Proprietários ou gerentes de lojas dentro do shopping, que desejam aumentar suas vendas por meio do serviço de entrega.
 </p>
 
