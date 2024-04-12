@@ -32,7 +32,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 ---
  
-### 2. Como será o processo para cadastrar um novo clientetorneio?
+### 2. Como será o processo para cadastrar um novo lojista?
  
 <p align = "justify">
 <b>1.</b> Preenchimento do formulário de cadastro com informações obrigatórias.
@@ -72,17 +72,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
 <b>-</b> Qual será a política de avaliação e feedback dos clientes?
  
 ---
- 
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar produto ao carrinho ?
-<p align = "justify">
-<b>1.</b> O cliente explora o catálogo de produtos no aplicativo. Ao encontrar um produto desejado, ele o seleciona para ver os detalhes.
 
-<b>2.</b> Após revisar os detalhes do produto, o cliente adiciona o item ao carrinho com um toque.
-
-<b>3.</b> O cliente revisa as informações sobre o produto e seleciona a forma de pagamento para finalizá-lo.
-</p>
- 
-### 6. Quais informações seriam interessante para o cliente?
+### 5. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>-</b> Disponibilidade de produtos em tempo real.
    
@@ -99,21 +90,17 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente deve ser capaz de se cadastrar no sistema com as seguintes informações obrigatórias|
-|BS02| O cadastro do cliente deve passar por validação pelo administrador do portal antes de ser ativado.|
-|BS03| O cliente deve poder acessar o sistema utilizando suas credenciais.|
-|BS04| O cliente deve poder adicionar novos produtos ao catálogo da loja com as seguintes informações: categoria, nome, imagem, descrição, preço, recomendação data de criação e visibilidade|
-|BS05| O cliente deve poder visualizar e gerenciar os produtos cadastrados por ele.|
-|BS06| O cliente deve ter acesso a um painel de controle onde possa acompanhar as vendas, pedidos e estoque.|
-|BS07| O cliente deve poder receber notificações sobre novos pedidos e atualizações de status de pedidos.|
-|BS08| O cliente deve poder editar e excluir produtos do catálogo da loja conforme necessário.|
-|BS09| O cliente deve poder interagir com os clientes, respondendo a perguntas e fornecendo suporte quando necessário.|
-|BS10| O produto deve ser exibido no aplicativo para os clientes dentro do raio de entrega de 2 horas.|
-|BS11| O produto deve ser categorizado corretamente para facilitar a navegação dos clientes.|
-|BS12| O produto deve ter uma descrição detalhada para fornecer informações suficientes aos clientes.|
-|BS13| O produto deve ter um preço competitivo em comparação com outros produtos similares no mercado.|
-|BS14| O produto deve ser marcado como recomendado quando aplicável, para aumentar sua visibilidade.|
-|BS15| O produto deve ter sua visibilidade controlada pelo cliente, podendo ser ocultado ou exibido conforme necessário.|
+|BS01| O lojista deve ser capaz de se cadastrar no sistema com informações obrigatórias.|
+|BS02| O cadastro do lojista deve passar por validação pelo administrador do portal antes de ser ativado.|
+|BS03| O lojista deve poder acessar o sistema utilizando suas credenciais.|
+|BS04| O lojista deve poder adicionar novos produtos ao catálogo da loja com as seguintes informações: categoria, nome, imagem, descrição, preço, recomendação data de criação e visibilidade|
+|BS05| O lojista deve poder visualizar e gerenciar os produtos cadastrados por ele.|
+|BS06| O lojista deve ter acesso a um painel de controle onde possa acompanhar as vendas, pedidos e estoque.|
+|BS07| O lojista deve poder receber notificações sobre novos pedidos e atualizações de status de pedidos.|
+|BS08| O lojista deve poder editar e excluir produtos do catálogo da loja conforme necessário.|
+|BS09| O lojista deve poder interagir com os clientes, respondendo a perguntas e fornecendo suporte quando necessário.|
+|BS10| O produto deve ser categorizado corretamente para facilitar a navegação dos clientes.|
+|BS11| O produto deve ter uma descrição detalhada para fornecer informações suficientes aos clientes.|
  
 ## Conclusão
 <p align = "justify">
