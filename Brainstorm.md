@@ -80,12 +80,15 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>XXX</b> - Informações...
+   <b>-</b> Disponibilidade de produtos em tempo real.
    
-   <b>ZZZZ</b> - O cliente usuário poderá acessar informações...
+   <b>-</b> Descrições detalhadas dos produtos.
 
-   <b>WWWWs</b> - O usuário poderá ver scouts de partidas do torneio, ver as regras dos torneios, locais e data das partidas.
-   
+   <b>-</b> Preços competitivos.
+
+   <b>-</b> Opções de pagamento seguras e variadas.
+
+   <b>-</b> Avaliações e comentários de outros clientes.
 </p>
  
 ### Requisitos elicitados
