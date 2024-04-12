@@ -15,21 +15,12 @@ A equipe utiliza vários métodos e técnicas de diversas metodologias, processo
  
 Metodologias, processos e práticas identificados:
  
- 
-- [RUP/UP](https://www.../):<p align = "justify">
-RUP/UP é uma metodologia....
-</p>
- 
 - [POO (OOP Oriented Object Programming)](https://www....):<p align = "justify">
-A Programação Orientada a Objetos (POO) é uma prática de programação que permite que o código seja mais versátil e simples, pois permite a criação de objetos da vida real no código. Cada objeto tem características (chamadas de atributos) e comportamentos (chamados de métodos). Isso ajuda a organizar e reutilizar o código de forma mais eficiente, tornando-o mais fácil de entender e manter.
+A Programação Orientada a Objetos (POO) é uma prática de programação que permite que o sistema seja mais modelado de forma versátil e simples, pois permite a criação de objetos da vida real no código. Cada objeto tem características (chamadas de atributos) e comportamentos (chamados de métodos). Além disso, a POO promove uma maior legibilidade e manutenibilidade do código, tornando-o mais fácil de entender e modificar à medida que o sistema evolui. .
 </p>
- 
-- [RUP (Rational Unified Process)](https://www....):<p align = "justify">
-O Rational Unified Process é um Processo de Engenharia de Software. Ele fornece....
-<p>
  
 - [Kanban](https://www...):</p>
-   O sistema kanban é uma metodologia ágil....
+O Kanban é uma metodologia ágil que facilita a organização visual e eficiente do trabalho em equipe. Utilizando um quadro dividido em colunas representando etapas do processo, como "A Fazer", "Em Andamento" e "Concluído", as tarefas são representadas por cartões que se movem conforme avançam. Este método permite adaptações às necessidades específicas da equipe, como estabelecer limites para tarefas em andamento, evitando sobrecarga e mantendo um fluxo de trabalho suave. Além disso, promove a colaboração e a melhoria contínua ao fornecer visibilidade do progresso e incentivar ajustes para aumentar a produtividade e a qualidade do trabalho ao longo do tempo.
 <p align = "justify">
  
  
