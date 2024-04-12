@@ -16,7 +16,7 @@ A equipe utiliza vários métodos e técnicas de diversas metodologias, processo
 Metodologias, processos e práticas identificados:
  
 - [POO (OOP Oriented Object Programming)](https://www....):<p align = "justify">
-A Programação Orientada a Objetos (POO) é uma prática de programação que permite que o sistema seja mais modelado de forma versátil e simples, pois permite a criação de objetos da vida real no código. Cada objeto tem características (chamadas de atributos) e comportamentos (chamados de métodos). Além disso, a POO promove uma maior legibilidade e manutenibilidade do código, tornando-o mais fácil de entender e modificar à medida que o sistema evolui. .
+A Programação Orientada a Objetos (POO) é uma prática de programação que permite modelar sistemas de forma versátil e simples, criando objetos com atributos e métodos, promovendo legibilidade e facilidade de manutenção do código.
 </p>
  
 - [Kanban](https://www...):</p>
@@ -33,6 +33,8 @@ O Kanban é uma metodologia ágil que facilita a organização visual e eficient
 - **Desenvolvimento iterativo**: A estratégia iterativa é essencial para construir o produto em pequenas etapas, o que permite ajustes e melhorias contínuas com base no feedback recebido. Essa abordagem flexível facilita a adaptação às mudanças nos requisitos e maximiza a eficiência na entrega de benefícios ao cliente.
  
 - **Verificação da qualidade de software**: É fundamental examinar a qualidade em relação aos requisitos estabelecidos, utilizando critérios específicos para assegurar que o produto atenda às expectativas dos usuários. Isso requer uma análise detalhada dos requisitos funcionais e não funcionais, visando garantir a robustez e confiabilidade do software, além de atender às necessidades dos interessados.
+
+- **Programação Orientada a Objetos (POO)**: A POO é uma prática de programação que permite que o sistema seja mais modelado de forma versátil e simples, pois permite a criação de objetos da vida real no código. Cada objeto tem características (chamadas de atributos) e comportamentos (chamados de métodos). Além disso, a POO promove uma maior legibilidade e manutenibilidade do código, tornando-o mais fácil de entender e modificar à medida que o sistema evolui.
  
  
 ### Kanban
