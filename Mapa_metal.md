@@ -35,11 +35,11 @@ O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, 
 </p>
  
 ## Referências
-> Explicação sobre Mapas Mentais,  Disponível em: [https://www.....](https://blog.stoodi.com.br/blog/dicas-de-estudo/como-fazer-um-mapa-mental/)
+> Explicação sobre Mapas Mentais,  Disponível em: [https://blog.stoodi.com.br/blog/dicas-de-estudo/como-fazer-um-mapa-mental/](https://blog.stoodi.com.br/blog/dicas-de-estudo/como-fazer-um-mapa-mental/)
  
-> Ferramentas para Mapas Mentais. Disponível em: [https://www....](https://www.mindmeister.com/)
+> Ferramentas para Mapas Mentais. Disponível em: [https://www.mindmeister.com/](https://www.mindmeister.com/)
  
-> Plataforma para usuários colaborar no desenho... Disponível em: [https://...](https://www.mindmeister.com/)
+> Plataforma para usuários colaborar no desenho... Disponível em: [https://www.mindmeister.com/](https://www.mindmeister.com/)
  
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
