@@ -127,4 +127,4 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 11/04/2024 | 1.0 | Criação do documento | Fabiano Amorim, Isabella Vieira, Luiza Conrado, Emilly Fernandes e Victor Furtado|
+| 11/04/2024 | 1.0 | Criação do documento | Fabiano Amorim |
