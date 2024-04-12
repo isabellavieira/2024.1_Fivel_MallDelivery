@@ -41,16 +41,14 @@ O Kanban é uma metodologia ágil que facilita a organização visual e eficient
 - **Programação Orientada a Objetos (POO)**: A POO é uma prática de programação que permite que o sistema seja mais modelado de forma versátil e simples, pois permite a criação de objetos da vida real no código. Cada objeto tem características (chamadas de atributos) e comportamentos (chamados de métodos). Além disso, a POO promove uma maior legibilidade e manutenibilidade do código, tornando-o mais fácil de entender e modificar à medida que o sistema evolui.
 
 ### Scrum
-<p align = "justify" >
+
 O Scrum é um framework ágil para desenvolvimento de projetos que se baseia em iterações curtas, chamadas de sprints, para promover entrega incremental e adaptação contínua. Ele inclui papéis definidos, como Product Owner, Scrum Master e Time de Desenvolvimento, além de eventos regulares, como reuniões diárias, planejamento de sprint, revisão de sprint e retrospectiva.
-</p>
-Product Backlog: Lista de todas as funcionalidades desejadas para o produto.
-Sprint Backlog: Conjunto de itens do Product Backlog selecionados para a sprint atual.
-Daily Scrum: Reunião diária para sincronização e planejamento do trabalho.
-Sprint Review: Revisão da sprint realizada no final para demonstrar o trabalho concluído.
-Sprint Retrospective: Reflexão sobre o processo da sprint para identificar melhorias.
 
-
+- **Product Backlog**: Lista de todas as funcionalidades desejadas para o produto.
+- **Sprint Backlog**: Conjunto de itens do Product Backlog selecionados para a sprint atual.
+- **Daily Scrum**: Reunião diária para sincronização e planejamento do trabalho.
+- **Sprint Review**: Revisão da sprint realizada no final para demonstrar o trabalho concluído.
+- **Sprint Retrospective**: Reflexão sobre o processo da sprint para identificar melhorias.
 
 ### Kanban
  
@@ -77,6 +75,8 @@ As metodologias, processos e práticas abordadas neste documento desempenham um 
 > [1] Sistema Kanban, Disponível em: [https://www.alura.com.br/artigos/metodo-kanban#:~:text=M%C3%A9todo%20Kanban%20%C3%A9%20um%20conjunto,atrav%C3%A9s%20de%20um%20sistema%20puxado]
 
 > [2] Programação Orientada a Objetos, Disponível em: [https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos]
+
+> [3] Scrum, Disponível em: [https://www.alura.com.br/conteudo/scrum-agilidade-seu-projeto]
  
  
 ## Autor(es)
