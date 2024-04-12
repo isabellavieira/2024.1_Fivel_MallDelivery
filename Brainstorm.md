@@ -73,9 +73,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, come�
  
 ---
  
-### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
+### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar produto ao carrinho ?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b>1.</b> O cliente explora o catálogo de produtos no aplicativo. Ao encontrar um produto desejado, ele o seleciona para ver os detalhes.
+
+<b>2.</b> Após revisar os detalhes do produto, o cliente adiciona o item ao carrinho com um toque.
+
+<b>3.</b> O cliente revisa as informações sobre o produto e seleciona a forma de pagamento para finalizá-lo.
 </p>
  
 ### 6. Quais informações seriam interessante para o cliente?
