@@ -51,7 +51,7 @@ Lojistas: Proprietários ou gerentes de lojas dentro do shopping, que desejam au
 ### Conta
 
 <p align = "justify">
-Os clientes podem criar uma conta personalizada, onde podem salvar informações de pagamento, endereço de entrega e histórico de compras para uma experiência de compra mais ágil e personalizada.
+Os clientes podem criar uma conta personalizada, onde podem salvar informações de pagamento, endereço de entrega e histórico de compras para uma experiência de compra mais ágil e personalizada. Já os lojistas, passam pelo processo de cadastramento, porém um email é enviado ao proprietário, para que o mesmo confirma o cadastramento do funcionário.
 </p>
 
 ### Loja
@@ -63,7 +63,7 @@ Os lojistas têm a capacidade de criar perfis para suas lojas dentro da platafor
 ### Produto
 
 <p align = "justify">
-Os clientes têm acesso a uma ampla gama de produtos de diversas lojas dentro do shopping, podendo explorar catálogos, visualizar detalhes dos produtos e adicionar itens ao carrinho de compras com facilidade.
+Os clientes têm acesso a uma ampla gama de produtos de diversas lojas dentro do shopping, podendo explorar catálogos, visualizar detalhes dos produtos e adicionar itens ao carrinho de compras com facilidade; sendo os lojistas os responsáveis por cadastrar esse produto no sistema.
 </p>
 
 ### Pesquisa sobre Lojas
