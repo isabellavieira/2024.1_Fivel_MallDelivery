@@ -63,11 +63,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b>XXXX</b> - Com a localização...
+<b>-</b> Como será a integração com empresas de logística e recebíveis?
  
-<b>YYYY</b> - O cliente...
+<b>-</b> Qual será o modelo de monetização do Marketplace?
  
-<b>ZZZ</b> - O cliente...
+<b>-</b> Como serão gerenciados os pedidos e entregas?
+
+<b>-</b> Qual será a política de avaliação e feedback dos clientes?
  
 ---
  
