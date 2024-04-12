@@ -22,16 +22,12 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>1.</b> - Criar um Marketplace de entrega imediata por aplicativo.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>2.</b> - Utilizar as lojas físicas como estoque logístico para distribuição. 
  
-<b>YYYY</b> - O objetivo da aplicação é....
- 
-<b>WWWW</b> - O principal objetivo da aplicação é a...
- 
-<b>KKKK</b> - A plataforma deve gerenciar...
+<b>3.</b> - Permitir aos clientes fazer pedidos e receber a entrega em até 2 horas.
 </p>
  
 ---
@@ -39,13 +35,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>1.</b> - Preenchimento do formulário de cadastro com informações obrigatórias.
  
 <b>YYYY</b> - O cliente...
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
+<b>2.</b> - Inclusão de CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias.
 
-<b>ZZZZ</b> - O cliente...
+<b>3.</b> - Validação do cadastro pelo administrador do portal.
  
 <b>KKK</b> - O cliente...
  
