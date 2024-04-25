@@ -21,12 +21,12 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
+[![Mapa mental Entrevista](docs/image/mapa_mental_e.png)](docs/image/mapa_mental_e.png)
  
  
 ### Mapa mental 2
  
-[![Mapa mental Brainstorm](../assets/Mapas_mentais/...png)](assets/Mapas_mentais/....png)
+[![Mapa mental Brainstorm](docs/image/mapa_mental_b.png)](docs/image/mapa_mental_b.png)
  
 ## Conclusão
  
