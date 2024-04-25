@@ -32,8 +32,6 @@
 ## Requisitos de Instalação e Configuração
 
 1. Clonar o repositório do GitHub.
-2. Instalar as dependências do projeto usando `npm install`.
-3. Configurar o ambiente de desenvolvimento seguindo as instruções no arquivo `config.md`.
 
 ## Requisitos Não Funcionais
 
