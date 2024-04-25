@@ -55,3 +55,10 @@
 
 7. **Privacidade:**
    - O sistema deve respeitar as políticas de privacidade dos lojistas e clientes, protegendo suas informações pessoais e garantindo conformidade com regulamentações de proteção de dados, como GDPR e LGPD.
+
+## Autor(es)
+ 
+| Data | Versão | Descrição | Autor(es) |
+| -- | -- | -- | -- |
+| 25/04/2024 | 1.0 | Criação  | Isabella Vieira e Fabiano Amorim |
+
