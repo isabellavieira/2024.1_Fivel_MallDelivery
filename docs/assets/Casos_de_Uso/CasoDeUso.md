@@ -1,6 +1,6 @@
 ### Casos de Uso
 
-#### 1. Cadastro de Lojista
+#### 1. Cadastro de Lojistas
 
 **Atores:** Lojista
 
