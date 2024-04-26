@@ -2,14 +2,14 @@
 
 ## Requisitos Funcionais do Sistema
 
-1. **Cadastro de Lojistas:**
-   - O sistema deve permitir que novos lojistas se cadastrem na plataforma fornecendo informações básicas, como nome da loja, endereço, informações de contato, etc.
+1. **Criação de Conta dos Lojistas:**
+   - O sistema deve permitir que novos lojistas criem suas contas na plataforma fornecendo informações básicas, como nome da loja, endereço, informações de contato, etc.
 
 2. **Gerenciamento de Conta:**
    - O sistema deve permitir que os lojistas gerenciem suas informações de perfil, como atualização de endereço, número de telefone, e-mail, etc.
 
-3. **Cadastramento de Produtos:**
-   - O sistema deve permitir que os lojistas façam cadastramento de seus produtos na plataforma, fornecendo informações detalhadas, como nome do produto, descrição, preço, imagens, categorias, etc.
+3. **Inserção de Produtos:**
+   - O sistema deve permitir que os lojistas insiram de seus produtos na plataforma, fornecendo informações detalhadas, como nome do produto, descrição, preço, imagens, categorias, etc.
 
 4. **Confirmação do Administrador:**
    - O sistema deve garantir que o lojista só tenha seu cadastro confirmado se aprovado pelo administrador.
@@ -20,8 +20,6 @@
 6. **Aceitação dos Termos de Uso:**
    - O sistema deve garantir que o cadastro só seja enviado ao administrador se o lojista aceitar os termos de uso.
 
-7. **Integração com Redes Sociais:**
-   - O sistema deve oferecer a opção para os lojistas integrarem suas contas de mídia social à plataforma, permitindo que os clientes sigam a loja e compartilhem produtos em suas redes sociais.
 
 ## Requisitos de Instalação e Configuração
 
