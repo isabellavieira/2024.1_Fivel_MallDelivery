@@ -1,80 +1,24 @@
 ### Casos de Uso
 
-#### 1. Cadastro de Lojistas
+### Aceitação dos Termos de Uso
 
-**Atores:** Lojista
+**Ator Primário:** Lojista
 
-**Fluxo Principal:**
-1. O lojista acessa a página de registro na plataforma.
-2. O lojista preenche o formulário de registro com informações como nome da loja, endereço, informações de contato e detalhes de pagamento.
-3. O sistema valida os dados fornecidos pelo lojista.
-4. O administrador valida o cadastro.
-5. O sistema cria uma conta para o lojista na plataforma.
-6. O lojista recebe uma confirmação de registro.
-
-**Exceções:**
-- Se os dados fornecidos pelo lojista forem inválidos, o sistema exibe uma mensagem de erro e solicita que o lojista corrija os campos incorretos.
-
----
-
-#### 2. Gerenciar Produtos
-
-**Atores:** Lojista
+**Precondições:** O lojista está no processo de criar uma conta.
 
 **Fluxo Principal:**
-1. O lojista acessa o painel de controle de sua loja na plataforma.
-2. O lojista navega até a seção de gerenciamento de produtos.
-3. O lojista adiciona novos produtos, atualiza informações ou remove produtos do catálogo.
-4. Para adicionar ou atualizar um produto, o lojista fornece detalhes como nome, descrição, preço, categoria e imagens.
-5. O sistema valida as informações fornecidas pelo lojista.
-6. O sistema atualiza o catálogo de produtos da loja conforme as ações do lojista.
+1. Durante o processo de criação da conta, após inserir os dados básicos (e-mail e senha) e antes de finalizar o cadastro, o lojista é apresentado com os Termos de Uso e a Política de Privacidade do sistema.
+2. O sistema exibe o documento dos Termos de Uso de forma clara e acessível, garantindo que o lojista possa ler o conteúdo sem dificuldades.
+3. O sistema requer que o lojista marque uma caixa de seleção indicando que leu e aceita os Termos de Uso e a Política de Privacidade.
+4. O lojista marca a caixa de seleção indicando sua aceitação.
+5. O sistema valida que a caixa de seleção foi marcada.
+6. O lojista pode então prosseguir para finalizar o processo de criação de conta.
+7. O sistema completa o cadastro e cria a conta do lojista.
 
-**Exceções:**
-- Se houver um problema ao adicionar, atualizar ou remover um produto, o sistema exibe uma mensagem de erro e solicita que o lojista tente novamente.
+**Fluxo Alternativo:** Se o lojista não aceitar os Termos de Uso:
+1. O lojista não marca a caixa de seleção ou tenta prosseguir sem aceitar os termos.
+2. O sistema detecta que a caixa não foi marcada e impede a continuação do processo de cadastro.
+3. O sistema exibe uma mensagem explicando que a aceitação dos Termos de Uso é obrigatória para utilizar o serviço.
+4. O lojista é convidado a revisar e aceitar os Termos de Uso para continuar com o cadastro.
 
----
-
-#### 3. Configurar Pagamento
-
-**Atores:** Lojista
-
-**Fluxo Principal:**
-1. O lojista acessa as configurações de pagamento em seu painel de controle.
-2. O lojista seleciona os métodos de pagamento que deseja oferecer em sua loja, como cartão de crédito, PayPal, entre outros.
-3. O lojista fornece informações de conta necessárias para cada método de pagamento selecionado.
-4. O sistema valida as informações de pagamento fornecidas pelo lojista.
-5. O sistema salva as configurações de pagamento.
-
-**Exceções:**
-- Se as informações de pagamento fornecidas forem inválidas, o sistema exibe uma mensagem de erro e solicita que o lojista corrija os campos incorretos.
-
----
-
-#### 4. Visualizar Pedidos
-
-**Atores:** Lojista
-
-**Fluxo Principal:**
-- O lojista acessa o painel de controle de sua loja na plataforma.
-- O lojista visualiza uma lista de todos os pedidos feitos em sua loja, incluindo detalhes como produtos pedidos, informações do cliente e status do pedido.
-
----
-
-#### 5. Interagir com Clientes
-
-**Atores:** Lojista
-
-**Fluxo Principal:**
-- O lojista acessa o painel de controle de sua loja na plataforma.
-- O lojista responde a perguntas de clientes, fornece suporte pós-venda e gerencia avaliações e comentários deixados pelos clientes em seus produtos.
-
----
-
-#### 6. Personalizar Loja
-
-**Atores:** Lojista
-
-**Fluxo Principal:**
-- O lojista acessa o painel de controle de sua loja na plataforma.
-- O lojista personaliza a aparência e a experiência de sua loja na plataforma, escolhendo temas, configurando páginas de destino e adicionando informações de marca.
-
+**Pós-condições:** Se aceitos, o lojista tem sua conta criada com a confirmação de que concordou com os termos legais e políticas do sistema.
