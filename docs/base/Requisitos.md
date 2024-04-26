@@ -1,4 +1,4 @@
-# Sistema de Cadastramento de Lojistas e Gestão de Produtos na plataforma MallDelivery
+# Sistema de Cadastramento de Lojistas e Produtos na plataforma MallDelivery
 
 ## Requisitos Funcionais do Sistema
 
