@@ -8,25 +8,19 @@
 2. **Gerenciamento de Conta:**
    - O sistema deve permitir que os lojistas gerenciem suas informações de perfil, como atualização de endereço, número de telefone, e-mail, etc.
 
-3. **Upload de Produtos:**
-   - O sistema deve permitir que os lojistas façam upload de seus produtos na plataforma, fornecendo informações detalhadas, como nome do produto, descrição, preço, imagens, categorias, etc.
+3. **Cadastramento de Produtos:**
+   - O sistema deve permitir que os lojistas façam cadastramento de seus produtos na plataforma, fornecendo informações detalhadas, como nome do produto, descrição, preço, imagens, categorias, etc.
 
-4. **Edição e Exclusão de Produtos:**
-   - O sistema deve permitir que os lojistas editem ou excluam produtos existentes em sua loja no MallDelivery.
-
-5. **Gestão de Estoque:**
-   - O sistema deve manter um controle de estoque atualizado para os produtos listados pelos lojistas, informando-os sobre a disponibilidade do produto.
-
-6. **Confirmação do Administrador:**
+4. **Confirmação do Administrador:**
    - O sistema deve garantir que o lojista só tenha seu cadastro confirmado se aprovado pelo administrador.
 
-7. **Validação de Dados:**
+5. **Validação de Dados:**
    - O sistema deve garantir que os dados inseridos pelo lojista sejam válidos, por exemplo, números de telefone, email, CNPJ, entre outros.
 
-8. **Aceitação dos Termos de Uso:**
+6. **Aceitação dos Termos de Uso:**
    - O sistema deve garantir que o cadastro só seja enviado ao administrador se o lojista aceitar os termos de uso.
 
-9. **Integração com Redes Sociais:**
+7. **Integração com Redes Sociais:**
    - O sistema deve oferecer a opção para os lojistas integrarem suas contas de mídia social à plataforma, permitindo que os clientes sigam a loja e compartilhem produtos em suas redes sociais.
 
 ## Requisitos de Instalação e Configuração
