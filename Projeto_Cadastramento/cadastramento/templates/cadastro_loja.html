@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block 'titulo' %} Cadastro dos lojas{% endblock %}
+
+{% block 'conteudo' %}
+
+<div class = "container">
+    <br>
+
+    {% if status == '0' %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Cadastro realizado com sucesso.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '1' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Não pode ter espaços vazios.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '2' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Lojista já existe no sistema.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '3' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Erro interno do sistema.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '4' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Sua senha deve conter pelo menos 5 caracteres.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    <div class = "row">
+
+        <div class = "col-md-3"></div>
+
+        <div class = "col-md">
+
+            <h1>Cadastre sua loja</h1>
+            <hr>
+
+            <form method = "POST" action = "cadastramento/validar_cadastro_lojas">{% csrf_token %}
+                <label>Nome da loja: </label>
+                <input name = "nome" class="form-control" type="text" placeholder="Nome...">
+                <br>
+                <label>Endereço: </label>
+                <input name = "nome" class="form-control" type="text" placeholder="Endereço...">
+                <br>
+                <label>Telefone/Celular: </label>
+                <input name = "tel" class="form-control" type="text" placeholder="(xx)xxxxx-xxxx">
+                <br>
+                <label>CNPJ: </label>
+                <input name = "cnpj" class="form-control" type="text" placeholder=" XX.XXX.XXX/0001-XX">
+                <br>
+                <label>Forma de pagamento que a loja aceita: </label>
+                <input name = "pagamento" class="form-control" type="text" placeholder="Pagamento...">
+                <br>
+                <label>Descrição: </label>
+                <input name = "descrricao" class="form-control" type="textarea" placeholder="Descrição...">
+                <br>
+                <label>Senha: </label>
+                <input name = "senha" class="form-control" type="password" placeholder="Senha...">
+                <br>
+                <input class="btn btn-info btn-mg" type="submit" value="Enviar">
+                <a href= "cadastramento/login_lojas" class = "btn btn-secondary btn-mg">Login da sua loja</a>
+            </form>
+
+        </div>
+
+        <div class = "col-md-3"></div>
+
+    </div>
+
+</div>
+
+{% endblock %}

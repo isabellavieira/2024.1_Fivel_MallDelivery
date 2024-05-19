@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block 'titulo' %} Login das lojas {% endblock %}
+
+{% block 'conteudo' %}
+
+<div class = "container">
+    <br>
+
+    {% if status == '1' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Email ou senha inválidos.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '2' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Faça login antes de tentar acessar o sistema.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    <div class = "row">
+
+        <div class = "col-md-3"></div>
+
+        <div class = "col-md">
+
+            <h1>Login da sua loja</h1>
+            <hr>
+
+            <form method = "POST" action = "cadastramento/validar_login_lojas">{% csrf_token %}
+                <label>Nome da loja: </label>
+                <input name = "nome" class="form-control" type="text" placeholder="Nome...">
+                <br>
+                <label>Senha: </label>
+                <input name = "senha" class="form-control" type="password" placeholder="Senha...">
+                <br>
+                <input class="btn btn-info btn-mg" type="submit" value="Entrar">
+                {% comment %} <a href= "{% url 'cadastrar_lojas' %}" class = "btn btn-secondary btn-mg">Cadastre sua loja</a> {% endcomment %}
+            </form>
+
+        </div>
+
+        <div class = "col-md-3"></div>
+
+    </div>
+
+</div>
+
+
+{% endblock %}
