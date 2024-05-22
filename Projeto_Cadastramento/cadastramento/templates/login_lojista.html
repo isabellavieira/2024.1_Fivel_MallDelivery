@@ -34,7 +34,7 @@
             <h1>Login</h1>
             <hr>
 
-            <form method = "POST" action = "cadastramento/validar_login_lojistas">{% csrf_token %}
+            <form method = "POST" action = "{% url 'validar_login_lojistas' %}">{% csrf_token %}
                 <label>Email: </label>
                 <input name = "email" class="form-control" type="text" placeholder="Email...">
                 <br>
