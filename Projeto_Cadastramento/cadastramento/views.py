@@ -2,19 +2,21 @@ from django.shortcuts import render, redirect
 from .models import Lojistas, Lojas
 from hashlib import sha256
 
-
+# View para renderizar a página inicial
 def inicio(request):
     return render(request, 'inicio.html')
 
-
+# View para renderizar a página de login dos lojistas
 def login_lojistas(request):
     status = request.GET.get('status')
     return render(request,'login_lojista.html', {'status': status})
 
+# View para renderizar a página de cadastro dos lojistas
 def cadastrar_lojistas(request):
     status = request.GET.get('status')
     return render(request, 'cadastro_lojista.html', {'status': status})
 
+# Validação e salvamento dos dados do formulário de cadastro de lojistas
 def validar_cadastro_lojistas(request):
 
     #Obtenção dos Dados do Formulário
@@ -50,6 +52,8 @@ def validar_cadastro_lojistas(request):
     except:
         return redirect('../cadastrar_lojistas/?status=3')
 
+
+# Validação dos dados de login dos lojistas
 def validar_login_lojistas(request):
     email = request.POST.get('email')
     senha = request.POST.get('senha')
@@ -60,22 +64,26 @@ def validar_login_lojistas(request):
     if len(lojista) == 0:
         return redirect('../login_lojistas/?status=1')
     elif len(lojista) > 0:
+        # Armazena o ID do lojista na sessão
         request.session['lojista'] = lojista[0].id
         return redirect('../intermediaria1')
     
-
+# View para renderizar a página intermediária após login do lojista
 def intermediaria1(request):
     return render(request, 'intermediaria1.html')
 
 
+# View para renderizar a página de login das lojas
 def login_lojas(request):
     status = request.GET.get('status')
     return render(request,'login_loja.html', {'status': status})
 
+# View para renderizar a página de cadastro das lojas
 def cadastrar_lojas(request):
     status = request.GET.get('status')
     return render(request, 'cadastro_loja.html', {'status': status})
 
+# Validação e salvamento dos dados do formulário de cadastro de lojas
 def validar_cadastro_lojas(request):
 
     #Obtenção dos Dados do Formulário
@@ -112,6 +120,7 @@ def validar_cadastro_lojas(request):
     except:
         return redirect('../cadastrar_lojas/?status=3')
 
+# Validação dos dados de login das lojas
 def validar_login_lojas(request):
     nome = request.POST.get('nome')
     senha = request.POST.get('senha')
@@ -122,10 +131,7 @@ def validar_login_lojas(request):
     if len(loja) == 0:
         return redirect('../login_lojistas/?status=1')
     elif len(loja) > 0:
+        # Armazena o ID da loja na sessão
         request.session['loja'] = loja[0].id
         return redirect('../home')
     
-
-def sair(request):
-    request.session.flush()
-    return redirect('')

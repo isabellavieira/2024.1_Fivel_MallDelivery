@@ -1,6 +1,6 @@
 from django.db import models
 
-
+# Modelo representando Lojistas
 class Lojistas(models.Model):
     nome = models.CharField(max_length=75)
     data = models.CharField(max_length=10)
@@ -10,12 +10,14 @@ class Lojistas(models.Model):
     senha = models.CharField(max_length=64)
 
     class Meta:
+        # Nome singular para o modelo no admin
         verbose_name = 'Lojista'
 
     def __str__(self) -> str:
+        # Representação textual do objeto
         return self.nome
 
-
+# Modelo representando Lojas
 class Lojas(models.Model):
     nome = models.CharField(max_length=75)
     endereco = models.CharField(max_length=10)
@@ -26,9 +28,11 @@ class Lojas(models.Model):
     senha = models.CharField(max_length=64)
 
     class Meta:
+        # Nome singular para o modelo no admin
         verbose_name = 'Loja'
 
     def __str__(self) -> str:
+        # Representação textual do objeto
         return self.nome
 
 

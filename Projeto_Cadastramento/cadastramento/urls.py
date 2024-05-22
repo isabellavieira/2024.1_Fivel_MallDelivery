@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+# Definição das rotas (URLs) e mapeamento para as views correspondentes
 urlpatterns = [
     path('cadastrar_lojistas/', views.cadastrar_lojistas, name='cadastrar_lojistas'),
     path('login_lojistas/', views.login_lojistas, name='login_lojistas'),
@@ -14,5 +15,4 @@ urlpatterns = [
     path('validar_cadastro_lojas/', views.validar_cadastro_lojas, name='validar_cadastro_lojas'),
     path('validar_login_lojas/', views.validar_login_lojas, name='validar_login_lojas'),
     
-    path('sair/', views.sair, name='sair')
 ]
