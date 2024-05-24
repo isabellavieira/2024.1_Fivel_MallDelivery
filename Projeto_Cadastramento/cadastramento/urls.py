@@ -15,4 +15,6 @@ urlpatterns = [
     path('validar_cadastro_lojas/', views.validar_cadastro_lojas, name='validar_cadastro_lojas'),
     path('validar_login_lojas/', views.validar_login_lojas, name='validar_login_lojas'),
     
+    path('cadastrar_produtos/', views.cadastrar_produtos, name='cadastrar_produtos'),
+    path('validar_cadastro_produtos/', views.validar_cadastro_produtos, name='validar_cadastro_produtos')
 ]

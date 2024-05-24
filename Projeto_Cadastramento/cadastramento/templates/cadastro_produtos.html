@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block 'titulo' %} Cadastro dos Produtos{% endblock %}
+
+{% block 'conteudo' %}
+
+<div class = "container">
+    <br>
+
+    {% if status == '0' %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            Cadastro realizado com sucesso.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '1' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Não pode ter espaços vazios.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '2' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Produto já existe no sistema.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    {% if status == '3' %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Erro interno do sistema.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+
+    <div class = "row">
+
+        <div class = "col-md-3"></div>
+
+        <div class = "col-md">
+
+            <h1>Cadastre seu produto</h1>
+            <hr>
+
+            <form method = "POST" action = "{% url 'validar_cadastro_produtos' %}">{% csrf_token %}
+                <label>Nome do produto: </label>
+                <input name = "nome" class="form-control" type="text" placeholder="Nome...">
+                <br>
+                <label>Código da roupa: </label>
+                <input name = "codigo_da_roupa" class="form-control" type="text" placeholder="Código da roupa...">
+                <br>
+                <label>Imagem produto: </label>
+                <input name = "imagem_produto" class="form-control" type="file" placeholder="Insira a imagem">
+                <br>
+                <label>Preço: </label>
+                <input name = "preco" class="form-control" type="text" placeholder=" Preço...">
+                <br>
+                <label>Descrição: </label>
+                <input name = "descricao" class="form-control" type="text" placeholder="Descrição...">
+                <br>
+                <label>Número de produtos inicial: </label>
+                <input name = "numero_produtos_inicial" class="form-control" type="textarea" placeholder="Número de produtos...">
+                <br>
+                <input class="btn btn-info btn-mg" type="submit" value="Enviar">
+            </form>
+
+        </div>
+
+        <div class = "col-md-3"></div>
+
+    </div>
+
+</div>
+
+{% endblock %}
