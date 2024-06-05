@@ -35,17 +35,19 @@ class Lojas(models.Model):
         # Representação textual do objeto
         return self.nome
 
-
+# Modelo representando Produtos
 class Produtos(models.Model):
     nome = models.CharField(max_length = 50)
-    codigo_da_roupa = models.CharField(max_length = 5)
-    imagem_produto = models.ImageField()
-    preco = models.FloatField()  
+    codigo_da_roupa = models.CharField(max_length = 10)
+    imagem_produto = models.ImageField(upload_to='img_produtos/')
+    preco = models.DecimalField((""), max_digits=5, decimal_places=2)
     descricao = models.TextField()
     numero_produtos_inicial = models.IntegerField()
 
     class Meta:
+        # Nome singular para o modelo no admin
         verbose_name = 'Produto'
 
     def __str__(self) -> str:
+        # Representação textual do objeto
         return self.nome

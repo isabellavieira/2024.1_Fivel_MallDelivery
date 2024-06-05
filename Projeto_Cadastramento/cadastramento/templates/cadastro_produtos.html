@@ -52,7 +52,7 @@
             <h1>Cadastre seu produto</h1>
             <hr>
 
-            <form method = "POST" action = "{% url 'validar_cadastro_produtos' %}">{% csrf_token %}
+            <form method = "POST" action = "{% url 'validar_cadastro_produtos' %}" enctype="multipart/form-data">{% csrf_token %}
                 <label>Nome do produto: </label>
                 <input name = "nome" class="form-control" type="text" placeholder="Nome...">
                 <br>
@@ -72,6 +72,7 @@
                 <input name = "numero_produtos_inicial" class="form-control" type="textarea" placeholder="Número de produtos...">
                 <br>
                 <input class="btn btn-info btn-mg" type="submit" value="Enviar">
+                <a href= "../../feed/feed_produtos" class = "btn btn-dark btn-mg">Voltar</a>
             </form>
 
         </div>

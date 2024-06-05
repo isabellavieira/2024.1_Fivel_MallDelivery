@@ -133,7 +133,7 @@ def validar_login_lojas(request):
     elif len(loja) > 0:
         # Armazena o ID da loja na sessão
         request.session['loja'] = loja[0].id
-        return redirect('../cadastrar_produtos')
+        return redirect('../../feed/feed_produtos')
 
 
 # View para renderizar a página de cadastro dos lojistas
@@ -147,7 +147,7 @@ def validar_cadastro_produtos(request):
     #Obtenção dos Dados do Formulário
     nome = request.POST.get('nome')
     codigo_da_roupa = request.POST.get('codigo_da_roupa')
-    imagem_produto = request.POST.get('imagem_produto')
+    imagem_produto = request.FILES.get('imagem_produto')
     preco = request.POST.get('preco')
     descricao = request.POST.get('descricao')
     numero_produtos_inicial = request.POST.get('numero_produtos_inicial')
@@ -156,7 +156,7 @@ def validar_cadastro_produtos(request):
     produto = Produtos.objects.filter (codigo_da_roupa = codigo_da_roupa)
 
     #Verificação de Campos Vazios
-    if len(nome.strip()) == 0 or len(codigo_da_roupa.strip()) == 0 or len(imagem_produto.strip()) == 0 or len(preco.strip()) == 0 or len(descricao.strip()) == 0 or len(numero_produtos_inicial.strip()) == 0:
+    if len(nome.strip()) == 0 or len(codigo_da_roupa.strip()) == 0 or len(preco.strip()) == 0 or len(descricao.strip()) == 0 or len(numero_produtos_inicial.strip()) == 0:
         return redirect('../cadastrar_produtos/?status=1')
     
     #Verificação de Codigo da Roupa Duplicado
