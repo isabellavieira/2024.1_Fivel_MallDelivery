@@ -130,21 +130,20 @@ def validar_login_lojas(request):
     try:
         loja = Lojas.objects.get(nome=nome, senha=senha)
     except Lojas.DoesNotExist:
-        return redirect('../login_lojistas/?status=1')
+        return redirect('../login_lojas/?status=1')  # Corrigido para login_lojas
 
     # Armazena o ID da loja na sessão
     request.session['loja_id'] = loja.id
     return redirect(reverse('feed_produtos_loja', args=[loja.id]))
 
 
-
-# View para renderizar a página de cadastro dos lojistas
+# View para renderizar a página de cadastro dos produtos
 def cadastrar_produtos(request, loja_id):
     status = request.GET.get('status')
     loja = get_object_or_404(Lojas, pk=loja_id)
     return render(request, 'cadastro_produtos.html', {'status': status, 'loja': loja})
 
-# Validação e salvamento dos dados do formulário de cadastro de lojistas
+# Validação e salvamento dos dados do formulário de cadastro de produtos
 def validar_cadastro_produtos(request, loja_id):
     nome = request.POST.get('nome')
     codigo_da_roupa = request.POST.get('codigo_da_roupa')
@@ -162,11 +161,11 @@ def validar_cadastro_produtos(request, loja_id):
     if produto.exists():
         return redirect(f'../{loja_id}/?status=2')
     
-    try:
-        loja = get_object_or_404(Lojas, pk=loja_id)
-        produtos = Produtos(loja=loja, nome=nome, codigo_da_roupa=codigo_da_roupa, imagem_produto=imagem_produto, preco=preco, descricao=descricao, numero_produtos_inicial=numero_produtos_inicial)
-        produtos.save()
-        return redirect(f'../{loja_id}/?status=0')
-    except Exception as e:
-        print(e)
-        return redirect(f'../{loja_id}/?status=3')
+    # try:
+    #     loja = get_object_or_404(Lojas, pk=loja_id)
+    #     produtos = Produtos(loja=loja, nome=nome, codigo_da_roupa=codigo_da_roupa, imagem_produto=imagem_produto, preco=preco, descricao=descricao, numero_produtos_inicial=numero_produtos_inicial)
+    #     produtos.save()
+    #     return redirect(f'../{loja_id}/?status=0')
+    # except Exception as e:
+    #     print(e)
+    #     return redirect(f'../{loja_id}/?status=3')
