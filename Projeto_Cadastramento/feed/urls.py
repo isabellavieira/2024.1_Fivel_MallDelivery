@@ -3,5 +3,5 @@ from . import views
 
 # Definição das rotas (URLs) e mapeamento para as views correspondentes
 urlpatterns = [
-    path('feed_produtos/', views.feed_produtos, name='feed_produtos')
+    path('<int:loja_id>/', views.feed_produtos_loja, name='feed_produtos_loja')
 ]

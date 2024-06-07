@@ -1,15 +1,15 @@
-from django.shortcuts import render
-from cadastramento.models import Produtos
+from django.shortcuts import render, get_object_or_404
+from cadastramento.models import Produtos, Lojas
+from django.http import HttpResponse
 
-# View para renderizar a página do feed
-def feed_produtos(request):
-    # Buscar todos os produtos cadastrados
-    produtos = Produtos.objects.all()
+# View para renderizar a página do feed de uma loja específica
+def feed_produtos_loja(request, loja_id):
+    loja = get_object_or_404(Lojas, id=loja_id)
+    
+    produtos = Produtos.objects.filter(loja=loja)
 
-    # Criar uma lista para armazenar os dados dos produtos
     feed_data = []
 
-    # Iterar sobre os produtos para obter informações
     for produto in produtos:
         feed_data.append({
             'imagem_produto': produto.imagem_produto,
@@ -17,6 +17,4 @@ def feed_produtos(request):
             'preco': produto.preco
         })
 
-    # Passar os dados para o template e renderizá-lo
-    return render(request, 'feed.html', {'feed_data': feed_data})
-
+    return render(request, 'feed.html', {'feed_data': feed_data, 'loja': loja})

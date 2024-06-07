@@ -10,14 +10,14 @@
         <div class="col-md-2"></div>
         <div class="col-md">
             <div class="d-flex justify-content-between">
-                <h2>Produtos</h2>
-                <a href="../../cadastramento/cadastrar_produtos" class="btn btn-secondary ">Cadastra Produtos</a>
+                <h2>Produtos da {{ loja.nome }}</h2>
+                <a href="{% url 'cadastrar_produtos' loja.id %}" class="btn btn-secondary">Cadastrar Produtos</a>
             </div>
             <hr>
             <div class="row">
                 {% for item in feed_data %}
                     <div class="col-md-4">
-                        <div class="card mb-4" style="width: 14rem; heigth=20rem;">
+                        <div class="card mb-4" style="width: 14rem;">
                             <img src="{{ item.imagem_produto.url }}" class="card-img-top" alt="{{ item.nome }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ item.nome }}</h5>

@@ -4,7 +4,7 @@
 
 {% block 'conteudo' %}
 
-<div class = "container">
+<div class="container">
     <br>
 
     {% if status == '0' %}
@@ -43,44 +43,37 @@
         </div>
     {% endif %}
 
-    <div class = "row">
-
-        <div class = "col-md-3"></div>
-
-        <div class = "col-md">
-
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md">
             <h1>Cadastre seu produto</h1>
             <hr>
 
-            <form method = "POST" action = "{% url 'validar_cadastro_produtos' %}" enctype="multipart/form-data">{% csrf_token %}
+            <form method="POST" action="{% url 'validar_cadastro_produtos' loja.id %}" enctype="multipart/form-data">{% csrf_token %}
                 <label>Nome do produto: </label>
-                <input name = "nome" class="form-control" type="text" placeholder="Nome...">
+                <input name="nome" class="form-control" type="text" placeholder="Nome...">
                 <br>
                 <label>Código da roupa: </label>
-                <input name = "codigo_da_roupa" class="form-control" type="text" placeholder="Código da roupa...">
+                <input name="codigo_da_roupa" class="form-control" type="text" placeholder="Código da roupa...">
                 <br>
                 <label>Imagem produto: </label>
-                <input name = "imagem_produto" class="form-control" type="file" placeholder="Insira a imagem">
+                <input name="imagem_produto" class="form-control" type="file" placeholder="Insira a imagem">
                 <br>
                 <label>Preço: </label>
-                <input name = "preco" class="form-control" type="text" placeholder=" Preço...">
+                <input name="preco" class="form-control" type="text" placeholder="Preço...">
                 <br>
                 <label>Descrição: </label>
-                <input name = "descricao" class="form-control" type="text" placeholder="Descrição...">
+                <input name="descricao" class="form-control" type="text" placeholder="Descrição...">
                 <br>
                 <label>Número de produtos inicial: </label>
-                <input name = "numero_produtos_inicial" class="form-control" type="textarea" placeholder="Número de produtos...">
+                <input name="numero_produtos_inicial" class="form-control" type="number" placeholder="Número de produtos...">
                 <br>
                 <input class="btn btn-info btn-mg" type="submit" value="Enviar">
-                <a href= "../../feed/feed_produtos" class = "btn btn-dark btn-mg">Voltar</a>
+                <a href="{% url 'feed_produtos_loja' loja.id %}" class="btn btn-dark btn-mg">Voltar</a>
             </form>
-
         </div>
-
-        <div class = "col-md-3"></div>
-
+        <div class="col-md-3"></div>
     </div>
-
 </div>
 
 {% endblock %}
