@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse
 from .models import Lojistas, Lojas, Produtos
 from hashlib import sha256
+#from decimal import Decimal, InvalidOperation
 
 # View para renderizar a página inicial
 def inicio(request):
@@ -146,26 +147,13 @@ def cadastrar_produtos(request, loja_id):
 # Validação e salvamento dos dados do formulário de cadastro de produtos
 def validar_cadastro_produtos(request, loja_id):
     nome = request.POST.get('nome')
-    codigo_da_roupa = request.POST.get('codigo_da_roupa')
     imagem_produto = request.FILES.get('imagem_produto')
     preco = request.POST.get('preco')
     descricao = request.POST.get('descricao')
     numero_produtos_inicial = request.POST.get('numero_produtos_inicial')
 
-    # Verifica se algum campo está vazio
-    if not all([nome, codigo_da_roupa, preco, descricao, numero_produtos_inicial]):
-        return redirect(f'../{loja_id}/?status=1')
+    loja = get_object_or_404(Lojas, pk=loja_id)
+    produtos = Produtos(loja=loja, nome=nome, imagem_produto=imagem_produto, preco=preco, descricao=descricao, numero_produtos_inicial=numero_produtos_inicial)
+    produtos.save()
+    return redirect(reverse('feed_produtos_loja', args=[loja.id]))
 
-    produto = Produtos.objects.filter(codigo_da_roupa=codigo_da_roupa)
-
-    if produto.exists():
-        return redirect(f'../{loja_id}/?status=2')
-    
-    # try:
-    #     loja = get_object_or_404(Lojas, pk=loja_id)
-    #     produtos = Produtos(loja=loja, nome=nome, codigo_da_roupa=codigo_da_roupa, imagem_produto=imagem_produto, preco=preco, descricao=descricao, numero_produtos_inicial=numero_produtos_inicial)
-    #     produtos.save()
-    #     return redirect(f'../{loja_id}/?status=0')
-    # except Exception as e:
-    #     print(e)
-    #     return redirect(f'../{loja_id}/?status=3')

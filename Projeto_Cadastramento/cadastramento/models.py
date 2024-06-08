@@ -21,7 +21,7 @@ class Lojas(models.Model):
     nome = models.CharField(max_length=75)
     endereco = models.CharField(max_length=100)
     tel = models.CharField(max_length=14)
-    cnpj = models.CharField(max_length=14)
+    cnpj = models.CharField(max_length=18)
     pagamento = models.CharField(max_length=75)
     descricao = models.TextField()
     senha = models.CharField(max_length=64)
