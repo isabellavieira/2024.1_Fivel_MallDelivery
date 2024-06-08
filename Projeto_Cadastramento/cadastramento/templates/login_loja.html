@@ -35,8 +35,8 @@
             <hr>
 
             <form method = "POST" action = "{% url 'validar_login_lojas' %}">{% csrf_token %}
-                <label>Nome da loja: </label>
-                <input name = "nome" class="form-control" type="text" placeholder="Nome...">
+                <label>CNPJ da loja: </label>
+                <input name = "cnpj" class="form-control" type="text" placeholder=" XX.XXX.XXX/0001-XX">
                 <br>
                 <label>Senha: </label>
                 <input name = "senha" class="form-control" type="password" placeholder="Senha...">

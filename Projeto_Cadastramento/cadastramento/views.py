@@ -96,8 +96,8 @@ def validar_cadastro_lojas(request):
     descricao = request.POST.get('descricao')
     senha = request.POST.get('senha')
 
-    #Verificação de Nome Existente
-    loja = Lojas.objects.filter(nome = nome)
+    #Verificação de CNPJ Existente
+    loja = Lojas.objects.filter(cnpj = cnpj)
 
     #Verificação de Campos Vazios
     if len(nome.strip()) == 0 or len(endereco.strip()) == 0 or len(tel.strip()) == 0 or len(cnpj.strip()) == 0 or len(pagamento.strip()) == 0 or len(descricao.strip()) == 0:
@@ -107,7 +107,7 @@ def validar_cadastro_lojas(request):
     if len(senha) < 5:
         return redirect('../cadastrar_lojas/?status=4')
 
-    #Verificação de Email Duplicado
+    #Verificação de CNPJ Duplicado
     if len(loja) > 0:
         return redirect('../cadastrar_lojas/?status=2')
 
@@ -123,12 +123,12 @@ def validar_cadastro_lojas(request):
 
 # Validação dos dados de login das lojas
 def validar_login_lojas(request):
-    nome = request.POST.get('nome')
+    cnpj = request.POST.get('cnpj')
     senha = request.POST.get('senha')
     senha = sha256(senha.encode()).hexdigest()
 
     try:
-        loja = Lojas.objects.get(nome=nome, senha=senha)
+        loja = Lojas.objects.get(cnpj = cnpj, senha=senha)
     except Lojas.DoesNotExist:
         return redirect('../login_lojas/?status=1')  # Corrigido para login_lojas
 
