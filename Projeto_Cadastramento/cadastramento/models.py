@@ -25,6 +25,7 @@ class Lojas(models.Model):
     pagamento = models.CharField(max_length=75)
     descricao = models.TextField()
     senha = models.CharField(max_length=64)
+    status = models.CharField(max_length=20, choices=[('pending', 'Pendente'), ('approved', 'Aprovada'), ('rejected', 'Rejeitada')], default='pending')
 
     class Meta:
         verbose_name = 'Loja'
