@@ -41,6 +41,7 @@ class Produtos(models.Model):
     preco = models.DecimalField(max_digits=5, decimal_places=2)
     descricao = models.TextField()
     numero_produtos_inicial = models.IntegerField()
+    categoria = models.CharField(max_length=100, blank=True) 
 
     class Meta:
         verbose_name = 'Produto'

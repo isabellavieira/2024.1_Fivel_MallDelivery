@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block 'titulo' %}Loja em Análise{% endblock %}
+
+{% block 'conteudo' %}
+<div class="container">
+    <br>
+    <h1>Sua loja está em análise</h1>
+    <p>Estamos analisando sua loja. Assim que for aprovada, você será redirecionado automaticamente para o feed onde poderá adicionar produtos.</p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    function verificarStatus() {
+        fetch("{% url 'verificar_status_loja' loja_id %}")
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'approved') {
+                window.location.href = "{% url 'feed_produtos_loja' loja_id %}";
+            }
+        });
+    }
+
+    setInterval(verificarStatus, 1000);  // Verifica o status a cada 5 segundos
+});
+</script>
+{% endblock %}
