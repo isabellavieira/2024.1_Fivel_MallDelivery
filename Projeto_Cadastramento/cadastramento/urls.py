@@ -23,6 +23,9 @@ urlpatterns = [
 
     path('loja_em_analise/', views.loja_em_analise, name='loja_em_analise'),
     path('verificar_status_loja/<int:loja_id>/', views.verificar_status_loja, name='verificar_status_loja'),
+
+    path('', views.feed_geral, name='home'),
+    
 ]
 
 

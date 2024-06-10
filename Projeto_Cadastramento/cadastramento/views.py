@@ -132,3 +132,13 @@ def verificar_status_loja(loja_id):
 def loja_em_analise(request):
     loja_id = request.session.get('loja_id')
     return render(request, 'loja_em_analise.html', {'loja_id': loja_id})
+
+
+def feed_geral(request):
+    query = request.GET.get('q', '')
+    if query:
+        produtos = Produtos.objects.filter(nome__icontains=query)
+    else:
+        produtos = Produtos.objects.all()
+
+    return render(request, 'inicio.html', {'produtos': produtos})

@@ -19,13 +19,5 @@ def feed_produtos_loja(request, loja_id):
     return render(request, 'feed.html', {'feed_data': feed_data, 'loja': loja})
 
 
-def feed_geral(request):
-    query = request.GET.get('q', '')  # Pega o parâmetro de consulta do URL se existir
-    if query:
-        produtos = Produtos.objects.filter(nome__icontains=query)  # Filtra por nome do produto
-    else:
-        produtos = Produtos.objects.all()  # Caso não tenha filtro, retorna todos os produtos
-
-    return render(request, 'feed_geral.html', {'produtos': produtos})
 
 

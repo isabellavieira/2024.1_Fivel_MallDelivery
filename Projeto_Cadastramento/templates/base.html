@@ -1,26 +1,76 @@
 <!doctype html>
-<html lang="pt-BR">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="pt-BR" style="height: 100%;">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
-        {% block 'head' %} {% endblock  %}
-        <title>{% block 'titulo' %} {% endblock  %}</title>
-    </head>
-    <body>
+    {% block 'head' %}{% endblock %}
+    <title>{% block 'titulo' %}{% endblock %}</title>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="../../">Mall Delivery</a>
-        </nav>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .button-container {
+            margin-bottom: 50px; /* Ajuste este valor conforme necessário para criar espaço suficiente */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../../">Mall Delivery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../cadastramento/cadastrar_lojistas/">Cadastro</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../cadastramento/login_lojistas/">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        {% block 'conteudo' %} {% endblock  %}
+    <div class="content">
+        <div class="button-container">
+            {% block 'conteudo' %}{% endblock %}
+        </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+    <footer>
+        <div class="container">
+            <span>© 2024 Mall Delivery. Todos os direitos reservados.</span>
+            <span style="float: right;">Contato: contato@malldelivery.com.br</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
-
