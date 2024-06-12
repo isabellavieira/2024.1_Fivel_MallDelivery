@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Brainstorm - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Assets</a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Casos de Uso</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../assets/Casos_de_Uso/CasoDeUso/" class="dropdown-item">CasoDeUso</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Base</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../5W2H/" class="dropdown-item">5W2H</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Brainstorm</a>
+</li>
+                                    
+<li>
+    <a href="../Documento_de_visao/" class="dropdown-item">Documento de Visão</a>
+</li>
+                                    
+<li>
+    <a href="../Entrevista/" class="dropdown-item">Entrevista Estruturada com Foco no Usuário Final</a>
+</li>
+                                    
+<li>
+    <a href="../Mapa_metal/" class="dropdown-item">Mapas Mentais</a>
+</li>
+                                    
+<li>
+    <a href="../Metodologia/" class="dropdown-item">Metodologia</a>
+</li>
+                                    
+<li>
+    <a href="../Requisitos/" class="dropdown-item">Sistema de Cadastramento de Lojistas e Produtos na plataforma MallDelivery</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../5W2H/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Documento_de_visao/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#introducao" class="nav-link">Introdução</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#brainstorm" class="nav-link">Brainstorm</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#versao-10" class="nav-link">Versão 1.0</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#perguntas" class="nav-link">Perguntas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="introducao">Introdução</h2>
+<p align = "justify">
+O brainstorm é uma técnica de elicitação de requisitos que consiste em reunir a equipe e discutir sobre diversos tópicos gerais do projeto apresentados no documento problema de negócio. No brainstorm o diálogo é incentivado e críticas são evitadas para permitir que todos colaborem com suas próprias ideias.
+</p>
+
+<h2 id="metodologia">Metodologia</h2>
+<p align = "justify">
+A equipe se reuniu para debater ideias gerais sobre o projeto via Discord, começou 19:00 e terminou..., onde a equipe debateu e transcreveu as ideias principais para o documento.
+</p>
+
+<h2 id="brainstorm">Brainstorm</h2>
+<h2 id="versao-10">Versão 1.0</h2>
+<h2 id="perguntas">Perguntas</h2>
+<h3 id="1-qual-o-objetivo-principal-da-aplicacao">1. Qual o objetivo principal da aplicação?</h3>
+<p align = "justify">
+<b>1.</b> Criar um Marketplace de entrega imediata por aplicativo.
+</p>
+
+<p><b>2.</b> Utilizar as lojas físicas como estoque logístico para distribuição. </p>
+<p><b>3.</b> Permitir aos clientes fazer pedidos e receber a entrega em até 2 horas.
+</p></p>
+<hr />
+<h3 id="2-como-sera-o-processo-para-cadastrar-um-novo-lojista">2. Como será o processo para cadastrar um novo lojista?</h3>
+<p align = "justify">
+<b>1.</b> Preenchimento do formulário de cadastro com informações obrigatórias.
+
+<b>2.</b> Inclusão de CNPJ validado, informações pessoais, redes sociais, endereços, imagens representativas e informações bancárias.
+
+<b>3.</b> - Validação do cadastro pelo administrador do portal.
+
+---
+
+### 3. Como será a forma de adicionar produtos?
+
+<p align = "justify">
+<b>1.</b> Acesso ao sistema utilizando credenciais.
+</p>
+
+<p align = "justify">
+<b>2.</b> Seleção da opção de adicionar novo produto.
+</p>
+
+<b>3.</b> Preenchimento das informações do produto, incluindo categoria, nome, imagem, descrição, preço, recomendação, data de criação e visibilidade.
+
+<b>4.</b> Adição do produto ao catálogo da loja.
+
+
+---
+
+### 4. Outras perguntas pertinentes ao contexto
+
+<p align = "justify">
+<b>-</b> Como será a integração com empresas de logística e recebíveis?
+
+<b>-</b> Qual será o modelo de monetização do Marketplace?
+
+<b>-</b> Como serão gerenciados os pedidos e entregas?
+
+<b>-</b> Qual será a política de avaliação e feedback dos clientes?
+
+---
+
+### 5. Quais informações seriam interessante para o cliente?
+<p align = "justify">
+   <b>-</b> Disponibilidade de produtos em tempo real.
+
+   <b>-</b> Descrições detalhadas dos produtos.
+
+   <b>-</b> Preços competitivos.
+
+   <b>-</b> Opções de pagamento seguras e variadas.
+
+   <b>-</b> Avaliações e comentários de outros clientes.
+</p>
+
+### Requisitos elicitados
+
+|ID|Descrição|
+|----|-------------|
+|BS01| O lojista deve ser capaz de se cadastrar no sistema com informações obrigatórias.|
+|BS02| O cadastro do lojista deve passar por validação pelo administrador do portal antes de ser ativado.|
+|BS03| O lojista deve poder acessar o sistema utilizando suas credenciais.|
+|BS04| O lojista deve poder adicionar novos produtos ao catálogo da loja com as seguintes informações: categoria, nome, imagem, descrição, preço, recomendação data de criação e visibilidade|
+|BS05| O lojista deve poder visualizar e gerenciar os produtos cadastrados por ele.|
+|BS06| O lojista deve ter acesso a um painel de controle onde possa acompanhar as vendas, pedidos e estoque.|
+|BS07| O lojista deve poder receber notificações sobre novos pedidos e atualizações de status de pedidos.|
+|BS08| O lojista deve poder editar e excluir produtos do catálogo da loja conforme necessário.|
+|BS09| O lojista deve poder interagir com os clientes, respondendo a perguntas e fornecendo suporte quando necessário.|
+|BS10| O produto deve ser categorizado corretamente para facilitar a navegação dos clientes.|
+|BS11| O produto deve ter uma descrição detalhada para fornecer informações suficientes aos clientes.|
+
+## Conclusão
+<p align = "justify">
+Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
+</p>
+## Referências Bibliográficas
+
+> BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
+
+
+## Autor(es)
+| Data | Versão | Descrição | Autor(es) |
+| -- | -- | -- | -- |
+| 11/04/2024 | 1.0 | Criação do documento | Fabiano Amorim |</div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
