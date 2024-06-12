@@ -17,15 +17,12 @@ urlpatterns = [
     
     path('cadastrar_produtos/<int:loja_id>/', views.cadastrar_produtos, name='cadastrar_produtos'),
     path('validar_cadastro_produtos/<int:loja_id>/', views.validar_cadastro_produtos, name='validar_cadastro_produtos'),
-    
-    path('feed/<int:loja_id>/', views.feed_produtos_loja, name='feed_produtos_loja'),
-    path('loja_em_analise/', views.loja_em_analise, name='loja_em_analise'),
 
+    path('feed/<int:loja_id>/', views.aprovacao, name='aprovacao'),
     path('loja_em_analise/', views.loja_em_analise, name='loja_em_analise'),
     path('verificar_status_loja/<int:loja_id>/', views.verificar_status_loja, name='verificar_status_loja'),
 
-    path('', views.feed_geral, name='home'),
-    
+
 ]
 
 

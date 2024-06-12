@@ -5,9 +5,6 @@ from hashlib import sha256
 from django.http import HttpResponseForbidden
 from django.http import JsonResponse
 
-def inicio(request):
-    return render(request, 'inicio.html')
-
 def login_lojistas(request):
     status = request.GET.get('status')
     return render(request,'login_lojista.html', {'status': status})
@@ -117,13 +114,11 @@ def validar_cadastro_produtos(request, loja_id):
     produtos.save()
     return redirect(reverse('feed_produtos_loja', args=[loja.id]))
 
-def feed_produtos_loja(request, loja_id):
+def aprovacao(request, loja_id):
     loja = get_object_or_404(Lojas, id=loja_id)
     if loja.status != 'approved':
         return HttpResponseForbidden("Sua loja ainda não foi aprovada.")
-    produtos = Produtos.objects.filter(loja=loja)
-    feed_data = [{'imagem_produto': produto.imagem_produto, 'nome': produto.nome, 'preco': produto.preco} for produto in produtos]
-    return render(request, 'feed.html', {'feed_data': feed_data, 'loja': loja})
+    return render(request, 'feed.html')
 
 def verificar_status_loja(loja_id):
     loja = get_object_or_404(Lojas, pk=loja_id)
@@ -133,12 +128,3 @@ def loja_em_analise(request):
     loja_id = request.session.get('loja_id')
     return render(request, 'loja_em_analise.html', {'loja_id': loja_id})
 
-
-def feed_geral(request):
-    query = request.GET.get('q', '')
-    if query:
-        produtos = Produtos.objects.filter(nome__icontains=query)
-    else:
-        produtos = Produtos.objects.all()
-
-    return render(request, 'inicio.html', {'produtos': produtos})
