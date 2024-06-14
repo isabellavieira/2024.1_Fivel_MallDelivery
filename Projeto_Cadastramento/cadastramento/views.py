@@ -74,13 +74,11 @@ def validar_cadastro_lojas(request):
         return redirect('../cadastrar_lojas/?status=2')
     try:
         senha = sha256(senha.encode()).hexdigest()
-        lojista_id = request.session.get('lojista_id')
-        lojista = get_object_or_404(Lojistas, id=lojista_id)
-        loja = Lojas(lojista=lojista, nome=nome, endereco=endereco, tel=tel, cnpj=cnpj, pagamento=pagamento, descricao=descricao, senha=senha, status='pending')
+        loja = Lojas(nome=nome, endereco=endereco, tel=tel, cnpj=cnpj, pagamento=pagamento, descricao=descricao, senha=senha)
         loja.save()
-        return redirect('loja_em_analise')
+        return redirect('../cadastrar_lojas/?status=0')
     except Exception as e:
-        print(e)
+        print("Erro:",e)
         return redirect('../cadastrar_lojas/?status=3')
 
 def validar_login_lojas(request):

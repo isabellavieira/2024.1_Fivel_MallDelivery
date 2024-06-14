@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from cadastramento.models import Produtos, Lojas
 
 
@@ -12,12 +12,15 @@ def feed_produtos_loja(request, loja_id):
 
     for produto in produtos:
         feed_data.append({
+            'id': produto.id,
             'imagem_produto': produto.imagem_produto,
             'nome': produto.nome,
             'preco': produto.preco
         })
     
     return render(request, 'feed.html', {'feed_data': feed_data, 'loja': loja})
+
+
 
 def feed_geral(request):
     query = request.GET.get('q', '')
