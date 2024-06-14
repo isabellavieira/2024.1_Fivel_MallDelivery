@@ -81,9 +81,7 @@ Depois de instalar o Python, você pode instalar o Django usando o pip, que é o
 
 ## 4. Solução de Problemas
 
-### 4.1 Problemas Comuns
-
-#### Erro de Conexão
+### Erro de Conexão
 - Verifique se o banco de dados está configurado corretamente no arquivo `settings.py`.
 
 ## 5. Manutenção e Atualizações
