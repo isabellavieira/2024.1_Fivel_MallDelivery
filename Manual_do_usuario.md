@@ -52,34 +52,34 @@ Depois de instalar o Python, você pode instalar o Django usando o pip, que é o
 
 ## 3. Uso do Sistema
 
-### 3.1 Registro e Login
+#### 3.1 Tela Inicial
+- A página inicial do sistema exibe produtos de todas as lojas cadastradas.
+
+### 3.2 Registro e Login
 
 #### Registro de Lojista
-1. Navegue até a página de cadastro de lojista: `/cadastro_lojista`.
-2. Preencha o formulário com os detalhes do lojista e clique em "Registrar".
+1. Navegue até a página de cadastro de lojista por meio do botão "Cadastrar".
+2. Preencha o formulário com os detalhes do lojista e clique em "Enviar".
+3. Navegue até a página de login de lojista por meio do botão "Login".
 
 #### Login de Lojista
-1. Navegue até a página de login de lojista: `/login_lojista`.
-2. Insira o CNPJ do lojista e clique em "Entrar".
+1. Insira o email cadastrado e a senha criada para o lojista.
+2. Navegue para a página de cadastramento/login da lojapor meio do botão "Entrar".
 
 #### Registro de Loja
-1. Navegue até a página de cadastro de loja: `/cadastro_loja`.
-2. Preencha o formulário com os detalhes da loja e clique em "Registrar".
+1. Preencha o formulário com os detalhes da loja e clique em "Enviar".
+2. Navegue para a página de login da loja por mio do botão "Login da sua loja".
 
 #### Login de Loja
-1. Navegue até a página de login de loja: `/login_loja`.
-2. Insira o CNPJ da loja e clique em "Entrar".
+1. Insira o CNPJ da loja e a senha criada e clique em "Entrar".
 
-### 3.2 Interface de Usuário
-
-#### Tela Inicial
-- A página inicial do sistema exibe informações principais e opções de navegação.
+### 3.3 Interface de Usuário
 
 #### Gestão de Produtos
-1. Navegue até a página de cadastro de produtos: `/cadastro_produtos`.
-2. Preencha o formulário com os detalhes do produto e clique em "Salvar".
+1. Após o login da loja ser realizado, clique em "Cadastrar Produtos".
+2. Preencha o formulário com as informações e imagens desejadas, e clique em "Enviar".
 
-### 3.3 Funcionalidades Específicas
+### 3.4 Funcionalidades Específicas
 
 #### Gestão de Lojas
 - Acesse a aba "Lojas" para adicionar, editar ou remover lojas.
