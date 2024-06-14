@@ -32,7 +32,7 @@ Depois de instalar o Python, você pode instalar o Django usando o pip, que é o
 #### 5. Crie um ambiente virtual e ative-o
    ```bash
    python -m venv .venv
-   source .venv\Scripts\activate
+   .venv\Scripts\Activate
    ```
 
 #### 6. Instale as dependências (lista de pacotes python)
