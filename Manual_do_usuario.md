@@ -15,7 +15,7 @@ Certifique-se de que o Python está instalado no seu sistema. Você pode baixá-
 
 #### 2. Instalação do Django
 Depois de instalar o Python, você pode instalar o Django usando o pip, que é o gerenciador de pacotes do Python.
-   
+   ```bash
    pip install django
 
 
