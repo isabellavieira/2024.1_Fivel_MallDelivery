@@ -79,14 +79,6 @@ Depois de instalar o Python, você pode instalar o Django usando o pip, que é o
 1. Após o login da loja ser realizado, clique em "Cadastrar Produtos".
 2. Preencha o formulário com as informações e imagens desejadas, e clique em "Enviar".
 
-### 3.4 Funcionalidades Específicas
-
-#### Gestão de Lojas
-- Acesse a aba "Lojas" para adicionar, editar ou remover lojas.
-
-#### Gestão de Produtos
-- Acesse a aba "Produtos" para adicionar, editar ou remover produtos.
-
 ## 4. Solução de Problemas
 
 ### 4.1 Problemas Comuns
@@ -94,18 +86,11 @@ Depois de instalar o Python, você pode instalar o Django usando o pip, que é o
 #### Erro de Conexão
 - Verifique se o banco de dados está configurado corretamente no arquivo `settings.py`.
 
-### 4.2 FAQ
+## 5. Manutenção e Atualizações
 
-#### Como recuperar a senha?
-- O sistema não utiliza senhas para login, apenas o CNPJ é necessário.
+### Como atualizar
+1. Dar commit no repositório dentro do Github sempre que houver uma alteração.
 
-## 5. Exemplos e Capturas de Tela
+## 6. Recursos Adicionas
 
-(Inserir exemplos relevantes e capturas de tela da interface do usuário aqui)
-
-## 6. Conclusão
-
-Este manual deve fornecer todas as informações necessárias para instalação, configuração e uso adequado do Sistema de Cadastramento e Login de Lojas. Em caso de dúvidas adicionais, consulte a documentação do projeto ou entre em contato com o suporte técnico.
-
-
-
+- Email: contato@malldelivery.com.br
