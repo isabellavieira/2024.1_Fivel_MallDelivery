@@ -5,9 +5,9 @@ Bem-vindo ao Sistema de Cadastramento e Login de Lojas. Este manual fornecerá t
 
 ## 2. Instalação
 ### Requisitos do Sistema
-- **Sistema Operacional**: Windows 10 ou superior, Ubuntu 20.04 ou superior
-- **Python**: Versão 3.8 ou superior
-- **Django**: Versão 3.2 ou superior
+- **Sistema Operacional**: Windows 10 ou superior
+- **Python** instalado
+- **Django** instalado
 
 ### Passos de Instalação
 #### 1. Instalação do Python
@@ -16,4 +16,8 @@ Certifique-se de que o Python está instalado no seu sistema. Você pode baixá-
 #### 2. Instalação do Django
 Depois de instalar o Python, você pode instalar o Django usando o pip, que é o gerenciador de pacotes do Python.
    ```bash
-   pip install django==3.2
+   pip install django
+
+#### 3. Clone o Repositório
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
